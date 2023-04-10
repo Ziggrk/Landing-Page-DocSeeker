@@ -2,12 +2,67 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description" content="DocSeeker official Landing Page site"/>
+    <meta name="keywords" content="UX, Digital Transformation, APPS, Landing Page, Software Development"/>
+    <meta name="author" content="MIRAI team"/>
+
     <link rel="stylesheet" href="assets/styles/styles.css">
+
+    <link rel="icon" type="image/x-icon" href="assets/images/Logo.png">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Inter&family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="assets/scripts/main.js"></script>
+
+    <title>DocSeeker</title>
 </head>
 <body>
+
+
 <main>
-<section id="knowUs">
+
+    <header class="navbar container">
+        <div class="navbarBtn">
+            <img src="assets/images/logo.png" alt="Logo-image" class="navbarLogo">
+        </div>
+        <img src="assets/images/menu.png" alt="menu-image" class="menu">
+        <ul class="navbarLinks">
+            <li id="link1" class="navbarElementItem"><a href="#home">HOME</a></li>
+            <li id="link2" class="navbarElementItem"><a href="#knowUs">MEET US</a></li>
+            <li id="link3" class="navbarElementItem"><a href="#services">SERVICES</a></li>
+            <li id="link4" class="navbarElementItem"><a href="#contact">CONTACT US</a></li>
+            <!-- <li class="navbarElementItem btnLenguage">Español</li> -->
+        </ul>
+        <ul class="menuLinks">
+            <li class="menuItem navbarElementItem"><a href="#home">HOME</a></li>
+            <li class="menuItem navbarElementItem"><a href="#knowUs">MEET US</a></li>
+            <li class="menuItem navbarElementItem"><a href="#services">SERVICES</a></li>
+            <li class="menuItem navbarElementItem"><a href="#contact">CONTACT US</a></li>
+        </ul>
+    </header>
+
+    <header>
+        <section class="hero">
+            <h1>This is DocSeeker, in a few words...</h1>
+            <div class="photoAndText">
+                <img src="assets/images/DoctorMeasuringThePressureOfAPatient.jpg" class="imageHero">
+                <div class="textAndButton">
+                    <h3>HOME CARE AND RECOMMENDATIONS</h3>
+                    <p>We focus on the health sector, providing recipes, recommendations and
+                        treatment with home health professionals.</p>
+                    <button onclick="location.href='https://docseeker-frontend.web.app/'">Download the App</button>
+                </div>
+            </div>
+
+        </section>
+    </header>
+    <section id="knowUs">
         <h1 class="title">Know Us</h1>
         <section class="cards">
             <div class="card">
@@ -44,19 +99,112 @@
         </section>
     </section>
 
+    <section id="information">
 
-    <!-- Foooter -->
+        <section class="icon">
+            <p>50</p>
+            <i class="fa-solid fa-user-doctor" style="font-size:4vw;"></i>
+            <p>Certified Doctors</p>
+        </section>
+
+        <section class="icon">
+            <p>+500</p>
+            <i class="fa-solid fa-address-book" style="font-size:4vw;"></i>
+            <p>Satisfied Patient</p>
+        </section>
+
+        <section class="icon">
+            <p>1</p>
+            <i class="fa-solid fa-house-medical" style="font-size:4vw;"></i>
+            <p>Year of Experience</p>
+        </section>
+
+    </section>
+
+    <h1>PATIENT SERVICES</h1>
+    <section id="services">
+
+        <div class="filters">
+            <div class="filter">
+                <img src="assets/images/nanny.png" alt="Checking grandma" >
+                <h2>Preventive<br>Checks</h2>
+            </div>
+            <div class="filter">
+                <img src="assets/images/exam.png" alt="Medic test" >
+                <h2>Medical Assistance<br>per House</h2>
+            </div>
+        </div>
+        <div class="btnContainer">
+            <button id="connectBtn2">Register to schedule an appointment</button>
+        </div>
+    </section>
+    <section id="healthProfessionals">
+        <div class="titleBackground">
+            <h2>Services for Health Professionals</h2>
+        </div>
+
+        <div class="mainContainer">
+            <div class="mediaContainer">
+                <div class="feature">
+                    <div class="imgContainer">
+                        <img src="assets/images/doctor%20appointment.jpg" alt="Doctor and a patient in an appointment">
+                    </div>
+                    <h3>Charge for your consultations</h3>
+                </div>
+
+                <div class="feature">
+                    <div class="imgContainer">
+                        <img src="assets/images/doctor%20reading.jpg    " alt="Doctor reading a patient's medical history">
+                    </div>
+                    <h3>Virtual Medical History</h3>
+                </div>
+            </div>
+
+            <div class="btnContainer">
+                <button id="connectBtn">
+                    Connect with thousands of patients
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="aboutUs">
+        <div class="titleBackground">
+            <h2>About Us</h2>
+        </div>
+
+        <div class="mainContainer">
+            <div class="videoSection">
+                <h3>About the Product</h3>
+
+                <div class="videoFrame">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Qo91NwQxL3k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="videoSection">
+                <h3>About the Team</h3>
+
+                <div class="videoFrame">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/9UR7xCIa5pQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
     <footer>
         <div class="container-footer-all">
+
             <div class="container-body">
-                <div class="column1">
-                    <h1>Contact Us</h1>
+
+                <div class="column2">
+
+                    <h1>Contact</h1>
                     <div class="row">
-                        <i class="fab fa-whatsapp-square fa-lg" style="color: #17ee5e;"></i>
-                        <label>968184053</label>
+                        <i class="fa fa-whatsapp"></i>
+                        <label>987 874 092</label>
                     </div>
                     <div class="row">
-                        <i class="fas fa-envelope-square fa-lg" style="color: #ffffff;"></i>
+                        <i class="fa fa-at"></i>
                         <label>docseeker@gmail.com</label>
                     </div>
                     <div class="rowsocial">
@@ -65,49 +213,34 @@
                         <i class="fa fa-instagram fa-2x"></i>
                         <i class="fa fa-linkedin fa-2x"></i>
                     </div>
+
                 </div>
-                <div class="column2">
+
+
+                <div class="column1">
                     <h1>About us</h1>
-                    <p> We are a company focused on the development of technologies that solve problems in the field
-                        of health that are present in our society. Our mission is to find the most viable way to help
-                        people who have family members who suffer from serious illnesses or physical or other
-                        limitations, supporting them in their daily care and facilitating this task. Our vision, to be
-                        the #1 company in providing medical services at home, with innovative software of the highest
-                        quality.</p>
+
+                    <p>We are a company focused on the development of technologies that solve problems in the field of health that are present in our society. Our mission is to find the most viable way to help people who have family members who suffer from serious illnesses or physical or other limitations, supporting them in their daily care and facilitating this task. Our vision, to be the #1 company in providing medical services at home, with innovative software of the highest quality.</p>
+
                 </div>
 
             </div>
+
         </div>
+
         <div class="container-footer">
             <div class="footer">
                 <div class="copyright">
-                    © 2023 All rights reserved | <a href="#">VueSharp DocSeeker</a>
+                    © 2022 Todos los Derechos Reservados | <a href="">MIRAI DocSeeker</a>
                 </div>
+
             </div>
+
         </div>
+
     </footer>
 </main>
 
-<main>
-
-    <header>
-        <section class="hero">
-            <h1>This is DocSeeker, in a few words...</h1>
-            <div class="photoAndText">
-                <img src="assets/images/DoctorMeasuringThePressureOfAPatient.jpg" class="imageHero">
-                <div class="textAndButton">
-                    <h3>HOME CARE AND RECOMMENDATIONS</h3>
-                    <p>We focus on the health sector, providing recipes, recommendations and
-                        treatment with home health professionals.</p>
-                    <button>Download the App</button>
-                </div>
-            </div>
-
-        </section>
-    </header>
-
-</main>
 
 </body>
-
 </html>
