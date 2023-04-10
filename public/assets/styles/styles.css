@@ -28,7 +28,7 @@ body{
 }
 /* Rafael */
 
-section.hero{
+#hero{
     /*border: 1px solid red;*/
     background-color: #9BBFD7;
     padding: 20px;
@@ -266,7 +266,7 @@ li{
     transition: all .25s ease;
     backface-visibility: hidden;
     float: left;
-    margin:2vm;
+    margin: 2vm;
     margin-bottom: 30px;
     margin-top: 2vw;
     /*margin-left: 225px;
