@@ -212,6 +212,11 @@ li{
             font-family: poppins;
         }*/
 }
+@media only screen and (min-width: 110%) {
+    .navbarElementItem a {
+        font-size: 80%; /* Puedes ajustar el valor según tus necesidades */
+    }
+}
 
 #services {
     align-content: center;
